@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
@@ -15,11 +18,6 @@
         <div class="logo">
             <img src="img/logo.png" alt="">
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger">
-
-            </span>
-        </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -36,6 +34,7 @@
             Hi, I am <strong>Necati Tekin</strong> 
         </h1>
         <p class="section__subtitle section__subtitle--intro"> Student Software Developer</p>
+        <img src="img/person.jpg" alt="person" class="intro__img">
     
     </section>
 
@@ -44,14 +43,22 @@
     <!-- About me -->
     <section class="about-me" id="about">
         <h2 class="section__title setion__title--about">Wie ben ik</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about"> student van het Roc Van Amsterdam</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
+            <p>Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit.
+                Quis tenetur possimus mollitia cum blanditiis quo nobis,
+                consequatur dolorum? Dolorem fugiat veritatis autem perferendis,
+                beatae laboriosam. Harum labore ipsa quam nesciunt?</p>
+            <p>Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit.
+                Quis tenetur possimus mollitia cum blanditiis quo nobis,
+                consequatur dolorum? Dolorem fugiat veritatis autem perferendis,
+                beatae laboriosam. Harum labore ipsa quam nesciunt?</p>
         </div>
 
-        <img src="img/about.jpg" alt="about me">
+        <img src="img/about.jpg" alt="about me" class="about-me__img">
     </section>
 
 
@@ -60,24 +67,28 @@
         <h2 class="section__title">Contact</h2>
         <div class="container">
             <form action="mailto:necati199@live.nl" method="post" enctype="text/plain">
-              <label for="fname">First Name:</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name:</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="to">To the person:</label>
-              <input type="text" id="to" placeholder="Email">
-              <label for="subject">Subject:</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              <input type="submit" value="Submit">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="to">To the person:</label>
+            <input type="text" id="to" placeholder="Email">
+            <label for="subject">Subject:</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <input type="submit" value="Submit">
             </form>
-          </div>
+        </div>
     </section>
 
     <!-- footer -->
-
+    <footer class="footer">
     <a href="mailto:necati199@live.nl" class="footer__link">necati199@live.nl</a>
     <ul class="social-list">
-    <li class="social-list__item"><a class="social-list__link"></a></li>
+    <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/TRYHARDRG/project.git">
+            <i class="fab fa-github"></i></a>
+    </li>
     </ul>
+    </footer>
 </body>
 </html>
